@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { BrowserRouter as Router, Switch, Route, } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route, Redirect, } from "react-router-dom"
 import NavBar from "./app/presentation/components/NavBar"
 import './App.css';
 import HomeView from "./app/presentation/views/home/HomeView";
@@ -13,17 +13,20 @@ function App() {
       <Router>
         <NavBar/>
         <Switch>
-          <Route path='/intro'>
+          <Route path='/asisgeo-ex01-webpage/intro'>
             <IntroductionView/>
           </Route>
-          <Route path='/arcgis'>
+          <Route path='/asisgeo-ex01-webpage/arcgis'>
             <ArcGisView/>
           </Route>
-          <Route path='/about'>
+          <Route path='/asisgeo-ex01-webpage/about'>
             <AboutView/>
           </Route>
-          <Route path='/'>
+          <Route path='/asisgeo-ex01-webpage/'>
             <HomeView/>
+          </Route>
+          <Route path='/'>
+          <Redirect from="/" to="/asisgeo-ex01-webpage/" />
           </Route>
         </Switch>
       </Router>

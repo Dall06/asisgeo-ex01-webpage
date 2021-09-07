@@ -2,27 +2,26 @@ import React from "react";
 import '../../../../App.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import './styles.css'
-import HomeAccordion from "./components/HomeAccordion";
+import Button from 'react-bootstrap/Button';
+import './styles.css';
+import { useHistory  } from 'react-router-dom';
 
 const HomeView = () => {
+    const history = useHistory();
+
     return (
         <Container className="Container">
             <Row>
-                <Col sm={4}>
-                    <Container className="HeaderContainer">
-                        <div>
-                            <h1>Welcome ArtistEr Console</h1>
-                            <h4>As a manager you'll be able to check your contracted artist list and other trelevant information</h4>
-                        </div>
-                    </Container>
-                </Col>
-                <Col sm={8}>
-                    <Container className="CardContainer">
-                        <HomeAccordion/>
-                    </Container>
-                </Col>
+                <img src="https://sig.esri.co/wp-content/uploads/2020/03/ES_0320_Banner_COVID-19_GL_01-1.png" alt="geo" />
+                <Container className="HeaderContainer">
+                    <div>
+                        <h1>Bienvenido, Humano!</h1>
+                        <h4>Este es un manual sobre las principales funcionalidades de ArcGis, sientete libre de explorar el sitio :)</h4>
+                    </div>
+                </Container>
+                <Container className="CardContainer">
+                    <Button variant="primary" className="Button" onClick={() => history.push("/asisgeo-ex01-webpage/intro")}>Saber mas</Button>
+                </Container>
             </Row>
         </Container>
     );
