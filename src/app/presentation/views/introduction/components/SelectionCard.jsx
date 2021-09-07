@@ -5,7 +5,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import '../styles.css';
 
 const SelectionCard = ({indicateCurrent, defs}) => {
-    const [title, setTtile] = useState('Dropdown');
+    const [title, setTtile] = useState('Seleccionar');
 
     const setProps = (d) => {
         indicateCurrent(d)

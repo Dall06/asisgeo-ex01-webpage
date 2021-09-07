@@ -2,6 +2,10 @@
   overflow-y: none;
 }
 
+body {
+  background-color: #282c34 !important;
+}
+
 
 .App {
   background-color: #282c34;
