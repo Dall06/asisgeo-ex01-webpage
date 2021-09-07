@@ -1,18 +1,35 @@
-import React from "react";
-import Card from 'react-bootstrap/Card';
+import React, { useCallback, useEffect, useState } from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+import images from '../../../../../core/data/images'
 
-const InfoCard = () => {
-    return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-                <Card.Title>Esta tarjeta muestra el paso numero 1</Card.Title>
-                <Card.Text>
-                    Aqui va la descriopcion del paso y en img la imagen.
-                </Card.Text>
-            </Card.Body>
-        </Card>
-    );
+const InfoCard = ({ imgs = [], des = '' }) => {
+  const [itemsCarousel, setItemCarousel] = useState(null)
+
+  useEffect(() => {
+    renderItems()
+  }, [])
+
+  const renderItems = useCallback(() => {
+    let aux = []
+    imgs.forEach((img) => {
+      let imgAux = images.find((i) => +i.numero === +img)
+      aux.push(
+        <Carousel.Item>
+          <div className="infocard-carrousel-item">
+            <img className="d-block w-100" src={imgAux.img} />
+          </div>
+        </Carousel.Item>,
+      )
+    })
+    setItemCarousel(aux)
+  }, [])
+
+  return (
+    <div className="infocard-container">
+      <Carousel className="infocard-carrousel">{itemsCarousel}</Carousel>
+      <div className="infocard-description">{des}</div>
+    </div>
+  )
 }
 
-export default InfoCard;
+export default InfoCard
