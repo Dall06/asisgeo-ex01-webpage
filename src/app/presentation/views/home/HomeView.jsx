@@ -23,7 +23,7 @@ const HomeView = () => {
                     <Button variant="primary" className="Button" onClick={() => history.push("/asisgeo-ex01-webpage/intro")}>Saber mas</Button>
                 </Container>
                 <Container className="CardContainer" style={{marginTop: 62}}>
-                    <a className="btn Button btn-primary" href="https://img-prueba-delr.s3.us-east-2.amazonaws.com/asisgeo-ex01-report.pdf" download>Descargar</a>
+                    <a className="btn Button btn-primary" href="https://img-prueba-delr.s3.us-east-2.amazonaws.com/asisgeo-ex01-report.pdf" download target="_blank">Descargar</a>
                 </Container>
             </Row>
         </Container>
