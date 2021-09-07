@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "data":"glosarios@servidor-alicante.com. (2015, August 13). Sistemas de Información Geográfica (Glosario). Retrieved September 7, 2021, from Glosarios especializados website: https://glosarios.servidor-alicante.com/sistemas-informacion-geografica"
+    },
+    {
+        "id": 2,
+        "data":"¿Qué es una capa?—Ayuda | ArcGIS for Desktop. (2016). Retrieved September 7, 2021, from Arcgis.com website: https://desktop.arcgis.com/es/arcmap/10.3/map/working-with-layers/what-is-a-layer-.htm"
+    },
+    {
+        "id": 3,
+        "data":"Definición de coordenada — Definicion.de. (2011). Definición de coordenada — Definicion.de. Retrieved September 7, 2021, from Definición.de website: https://definicion.de/coordenada/"
+    },
+    {
+        "id": 4,
+        "data":"El geoide, el elipsoide, el esferoide y el datum, y cómo se relacionan—Ayuda | ArcGIS for Desktop. (2016). Retrieved September 7, 2021, from Arcgis.com website: https://desktop.arcgis.com/es/arcmap/10.3/guide-books/map-projections/about-the-geoid-ellipsoid-spheroid-and-datum-and-h.htm"
+    },
+    {
+        "id": 5,
+        "data":"dji. (2021, March 11). Geoide vs Elipsoide: ¿Cuál es la diferencia y por qué es importante? Retrieved September 7, 2021, from DJI ARS MADRID website: https://djiarsmadrid.com/es/blog/dji-news/geoide-vs-elipsoide-cual-es-la-diferencia-y-por-que-es-importante"
+    },
+    {
+        "id": 6,
+        "data":"Significados. (2015, February 2). Significado de Escala. Retrieved September 7, 2021, from Significados website: https://www.significados.com/escala/ "
+    },
+    {
+        "id": 7,
+        "data":"Manuel, L. (2021). GEOPOSICIONAMIENTO. Retrieved September 7, 2021, from Revista de divulgación Saber más UMSNH website: https://www.sabermas.umich.mx/archivo/la-ciencia-en-pocas-palabras/253-numero-28/445-geoposicionamiento.html"
+    },
+    {
+        "id": 8,
+        "data":"Georreferenciación y sistemas de coordenadas | ArcGIS Resource Center,`` Arcgis.com'', 2021. https://resources.arcgis.com/es/help/getting-started/articles/026n0000000s00"
+    },
+    {
+        "id": 9,
+        "data":"D. Martínez and F. Javier, Georreferenciación de documentos cartográficos para la gestión de Archivos y Cartotecas. 'Propuesta Metodológica,.' [Online]. Available: https://www.ign.es/web/resources/docs/IGNCnig/CTC-Ibercarto-V-Georreferenciacion.pdf "
+    },
+    {
+        "id": 10,
+        "data":"‌“Capítulo 7,.” [Online]. Available: https://www.um.es/geograf/sigmur/sigpdf/temario_7.pdf."
+    },
+    {
+        "id": 11,
+        "data":"https://www.inegi.org.mx/contenidos/temas/mapas/relieve/continental/metadatos/mde.pdf"
+    },
+    {
+        "id": 12,
+        "data":"‌“Proyecciones Cartográficas ¿qué debo saber? – idecor.cba.gov.ar,” Cba.gov.ar, 2020. https://idecor.cba.gov.ar/proyecciones-cartograficas-que-debo-saber/  (accessed Sep. 07, 2021)."
+    },
+    {
+        "id": 13,
+        "data":"‌“¿Qué es ArcGIS? | ArcGIS Resource Center,” Arcgis.com, 2021. https://resources.arcgis.com/es/help/getting-started/articles/026n00000014000000.htm (accessed Sep. 07, 2021)."
+    },
+    {
+        "id": 14,
+        "data":"“Plataforma ArcGIS,” Sigsa.info, 2021. https://www.sigsa.info/productos/esri/plataforma-arcgis (accessed Sep. 07, 2021)."
+    }
+]

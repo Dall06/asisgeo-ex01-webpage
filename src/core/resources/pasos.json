@@ -1,0 +1,129 @@
+[
+    {
+        "número": 1,
+        "Imágenes": [
+            "1.png"
+        ],
+        "Descripción": "Aquí se muestra lo que es la pantalla principal de ArcMap"
+    },
+    {
+        "número": "2,3,4",
+        "Imágenes": [
+            "2.png",
+            "3.png",
+            "4.png"
+        ],
+        "Descripción": "1ero se selecciona una carpeta y se añade una  imagen la cual vas a georeferenciar para ello haces el siguiente procedimiento"
+    },
+    {
+        "número": "5,6,7,8,9",
+        "Imágenes": [
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png"
+        ],
+        "Descripción": "En los grupos de control se añade la herramienta georeferencing para poder aplicar ciertos puntos y con ello añadir los puntos de control y así poder implementar coordenadas para el momento de insertar una imagen con vías quede justa al camino deseado"
+    },
+    {
+        "número": "10",
+        "Imágenes": [
+            "10.png"
+        ],
+        "Descripción": "sin puntos de control es aquello que se visualiza a continuación, el cual no se acomodan las líneas conforme al mapa"
+    },
+    {
+        "número": "11,12,13,14,15,16,17",
+        "Imágenes": [
+            "11.png",
+            "12.png",
+            "13.png",
+            "14.png",
+            "15.png",
+            "16.png",
+            "17.png"
+        ],
+        "Descripción": "Shapefiles nos permite identificar los objetos que hay en un mapa ejemplo: el rio, casas y el bosque a continuación se crearán para implementarlo en nuestro mapa o imagen."
+    },
+    {
+        "número": "18",
+        "Imágenes": [
+            "18.png"
+        ],
+        "Descripción": "En la edición de shapefiles se añade lo que es el mapa al cual está georeferenciada la imagen a continuación se ve como se agrega dicha ubicación."
+    },
+    {
+        "número": "19,20,21",
+        "Imágenes": [
+            "19.png",
+            "20.png",
+            "21.png"
+        ],
+        "Descripción": "Con los shapefiles creados anteriormente se crearan lo que son las edificaciones para eso son los puntos para asignar por ejemplo las casitas a continuación se ve el proceso"
+    },
+    {
+        "número": "22,23,24",
+        "Imágenes": [
+            "22.png",
+            "23.png",
+            "24.png"
+        ],
+        "Descripción": "al igual con los shapefiles se crearán las líneas en este caso se agregara lo que es el río "
+    },
+    {
+        "número": "25,26,27,28",
+        "Imágenes": [
+            "25.png",
+            "26.png",
+            "27.png",
+            "28.png"
+        ],
+        "Descripción": "Igual con el shapefiles de área verde se crearán las áreas verdes y se seleccionará toda la área verde a continuación el proceso"
+    },
+    {
+        "número": "29,30",
+        "Imágenes": [
+            "29.png",
+            "30.png"
+        ],
+        "Descripción": "Se añaden nuevos campos para cada tabla y agregar información deseada de cada campo"
+    },
+    {
+        "número": "31",
+        "Imágenes": [
+            "31.png"
+        ],
+        "Descripción": "Aquí se agrega la información de las edificaciones ejemplo se llaman “Casa” y se seleccionan todos los campos a cambiar"
+    },
+    {
+        "número": "32,33,34",
+        "Imágenes": [
+            "32.png",
+            "33.png",
+            "34.png"
+        ],
+        "Descripción": "Aquí se crea lo que es el apartado de area y perimetro para agregar los cálculos y la información"
+    },
+    {
+        "número": "35,36,37,38,39",
+        "Imágenes": [
+            "35.png",
+            "36.png",
+            "37.png",
+            "38.png",
+            "39.png"
+        ],
+        "Descripción": "Aquí se calcula las coordenadas X Y basándose en las imágenes de a continuación"
+    },
+    {
+        "número": "40,41,42,43",
+        "Imágenes": [
+            "40.png",
+            "41.png",
+            "42.png",
+            "43.png"
+        ],
+        "Descripción": "Aquí se realiza lo que son los porcentajes y una operación del mismo"
+    }
+]

@@ -1,0 +1,22 @@
+.Container {
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.CardContainer {
+    position: relative;
+    margin: 0 auto;
+}
+
+.CardStyle {
+    width: 100%;
+    color: white;
+    background-color: #30363f;
+}
+
+.HeaderContainer {
+    color: white;
+    padding-bottom: 5rem;
+}

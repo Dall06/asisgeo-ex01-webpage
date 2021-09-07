@@ -1,0 +1,126 @@
+[
+    {
+        "id": 1,
+        "name": "Banda",
+        "definiciones": [
+            "Rango de frecuencias del espectro electromagnético."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Capa",
+        "definiciones": [
+            "Definicion general: Conjunto de datos espaciales asociados a un contenido temático común",
+            "En Aplicaciones (ArcMap, ArcGlobe y ArcScene): Las capas son el mecanismo que se utiliza para visualizar datasets geográficos. Cada capa hace referencia a un dataset y especifica cómo ese dataset se representa con símbolos y etiquetas de texto."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Coordenada",
+        "definiciones": [
+            "Cantidad usada para definir una posición en un sistema de referencia. Las coordenadas pueden ser lineales (cartesianas) o angulares (esféricas), según el sistema de referencia.",
+            "Coordenada es un concepto que se utiliza en la geometría y que permite nombrar a las líneas que se emplean para establecer la posición de un punto y de los planos o ejes vinculados a ellas"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Datum",
+        "definiciones": [
+            "Sistema geométrico de referencia empleado para expresar numéricamente la posición geodésica de un punto sobre el terreno. Cada datum se define en función de un elipsoide y por un punto en el que el elipsoide y la Tierra son tangentes"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Elipsoide",
+        "definiciones": [
+            "Forma de tres dimensiones creada a partir de una elipse de dos dimensiones. La elipse es un óvalo, con un eje mayor (el eje más largo) y un eje menor (el eje más corto). Si se hace girar la elipse, la forma de la figura girada es el esferoide.",
+            "Es una esfera imperfecta. El nombre proviene de la palabra elipse, que se utiliza para describir una alteración similar a un círculo.\nA diferencia de las esferas, la longitud, anchura y altura de un elipsoide no todos tienen que ser idénticos.",
+            "Descripción simplificada de la forma y dimensiones de la Tierra: los elipsoides se definen en función de un radio ecuatorial y de un radio polar"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Escala",
+        "definiciones": [
+            "Escala es una sucesión ordenada de cosas distintas pero de la misma especie como por ejemplo la escala de colores.",
+            "Relación constante que existe entre las distancias lineales en el mismo y la realidad sobre el terreno. La escala numérica se expresa como una fracción de numerador la unidad y denominador, un número que expresa la relación existente entre la medición sobre la realidad y sobre el mapa."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Geoposicionamiento",
+        "definiciones": [
+            "Ubicar una persona, o una cosa, sobre la superficie terrestre, generalmente especificando la latitud y longitud de la misma. Para objetos móviles se incluye también el tiempo de modo que la posición quede completamente determinada como función del tiempo."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Georeferenciación",
+        "definiciones": [
+            "Localización espacial de los objetos o entidades geográficas. Esta georreferenciación es posible realizarla de dos maneras diferentes.", 
+            "Uso de coordenadas de mapa para asignar una ubicación espacial a entidades cartográficas.",
+            "Es un proceso que permite determinar la posición de un elemento en un sistema de coordenadas espaciales diferente al que se encuentra. Existen por tanto dos sistemas de coordenadas: el sistema origen y el sistema destino"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Imagen",
+        "definiciones": [
+            "Imagen multiespectral: Estructura de datos formada por varias imágenes digitales correspondientes a diferentes rangos de frecuencias. Es decir, una imagen multiespectral no es una imagen sino un conjunto de ellas, con las mismas propiedades geométricas, y cada una de las cuales recoge la reflectancia en un diferente rango de longitudes de onda del espectro electromagnético.",
+            "Imagen digital: Representación gráfica de un objeto mediante una matriz regular que recoge valores de reflectancia. Los valores de reflectancia suelen medirse mediante sensores sensibles a ciertos rangos de longitudes de onda de la luz."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Latitud",
+        "definiciones": [
+            "Latitud geodésica: Latitud medida sobre la superficie del elipsoide terrestre, definida como el ángulo formado por el ecuador con la perpendicular a la superficie del elipsoide, en el plano tangente al punto considerado",
+            "Latitud geográfica: Ángulo de un punto de la superficie terrestre, respecto al ecuador, medido sobre el meridiano"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Longitud",
+        "definiciones": [
+            "Longitud geodésica: Longitud medida sobre la superficie del elipsoide terrestre, definida como el ángulo formado por el meridiano de Greenwich y el meridiano del punto considerado.",
+            "Longitud geográfica: Ángulo formado por el meridiano que pasa por un punto de la superficie terrestre, respecto a un meridiano origen (el meridiano que pasa por Greenwich)"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Modelo digital del terreno",
+        "definiciones": [
+            "Conjunto de capas (generalmente raster) que representan distintas características de la superficie terrestre derivadas de una capa de elevaciones a la que se denomina Modelo Digital de Elevaciones",
+            "Estructura numérica de datos que representa la distribución espacial de una variable cuantitativa continua. Este tipo de modelos sirven para representar fenómenos, cuya variación espacial se manifiesta de manera continua, como la variación altitudinal del relieve o la distribución de temperaturas o precipitaciones sobre la superficie terrestre, donde la continuidad espacial se produce sin saltos bruscos, de manera continua."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Modelo digital de elevaciones",
+        "definiciones": [
+            "Representación visual y matemática de los valores de altura con respecto al nivel medio del mar, que permite caracterizar las formas del relieve y los elementos u objetos presentes en el mismo",
+            "Modelo digital del terreno, representa la distribución espacial de la altitud"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Pendiente",
+        "definiciones": [
+            "Ángulo entre la línea normal a la superficie del terreno y la vertical. La pendiente o inclinación del terreno es la derivada primera de la altitud y puede estimarse directamente a partir del modelo digital de elevaciones mediante filtros."
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Proyección cartográfica",
+        "definiciones": [
+            "La proyección cartográfica es un sistema de representación gráfica que establece una relación ordenada entre los puntos de la superficie curva de la Tierra y los de una superficie plana (mapa)"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Teledetección o Percepción Remota",
+        "definiciones": [
+            "Técnica que permite adquirir imágenes de la superficie terrestre, desde sensores instalados en plataformas espaciales."
+        ]
+    }
+]
