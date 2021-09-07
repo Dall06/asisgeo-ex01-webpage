@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import Carousel from 'react-bootstrap/Carousel'
+import Accordion from 'react-bootstrap/Accordion'
 import './styles.css'
 import Container from 'react-bootstrap/esm/Container'
 import DefinitionCard from './components/DefinitionCard'
@@ -15,10 +15,15 @@ const ArcGisView = () => {
 
   const renderJson = useCallback(() => {
     let render = []
-    practiceJSON.forEach((element) => {
-        // console.log(element)
+    practiceJSON.forEach((element, index) => {
+      // console.log(element)
       render.push(
-        <InfoCard imgs={element.Imágenes} des={element.Descripción} />,
+        <Accordion.Item eventKey={index}>
+          <Accordion.Header>{element.titulo}</Accordion.Header>
+          <Accordion.Body>
+            <InfoCard imgs={element.Imágenes} des={element.Descripción} />
+          </Accordion.Body>
+        </Accordion.Item>,
       )
     })
     setStepsRender(render)
@@ -27,7 +32,7 @@ const ArcGisView = () => {
   return (
     <Container>
       <DefinitionCard />
-      {stepsRender}
+      <Accordion defaultActiveKey="0">{stepsRender}</Accordion>
     </Container>
   )
 }

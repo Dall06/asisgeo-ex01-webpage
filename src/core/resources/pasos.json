@@ -1,71 +1,85 @@
 [
   {
     "número": 1,
+    "titulo":"Ventana principal de ArcMap",
     "Imágenes": ["1"],
     "Descripción": "Aquí se muestra lo que es la pantalla principal de ArcMap"
   },
   {
     "número": "2,3,4",
+    "titulo":"Georreferenciación",
     "Imágenes": ["2", "3", "4"],
     "Descripción": "1ero se selecciona una carpeta y se añade una  imagen la cual vas a georeferenciar para ello haces el siguiente procedimiento"
   },
   {
     "número": "5,6,7,8,9",
+    "titulo":"Grupos de control",
     "Imágenes": ["5", "6", "7", "8", "9"],
     "Descripción": "En los grupos de control se añade la herramienta georeferencing para poder aplicar ciertos puntos y con ello añadir los puntos de control y así poder implementar coordenadas para el momento de insertar una imagen con vías quede justa al camino deseado"
   },
   {
     "número": "10",
+    "titulo":"Sin puntos de control",
     "Imágenes": ["10"],
     "Descripción": "sin puntos de control es aquello que se visualiza a continuación, el cual no se acomodan las líneas conforme al mapa"
   },
   {
     "número": "11,12,13,14,15,16,17",
+    "titulo":"Creación de Shapefiles",
     "Imágenes": ["11", "12", "14", "15", "16", "17"],
     "Descripción": "Shapefiles nos permite identificar los objetos que hay en un mapa ejemplo: el rio, casas y el bosque a continuación se crearán para implementarlo en nuestro mapa o imagen."
   },
   {
     "número": "18",
+    "titulo":"Edición de Shapefiles",
     "Imágenes": ["18"],
     "Descripción": "En la edición de shapefiles se añade lo que es el mapa al cual está georeferenciada la imagen a continuación se ve como se agrega dicha ubicación."
   },
   {
     "número": "19,20,21",
+    "titulo":"Trabajo con puntos",
     "Imágenes": ["19", "20", "21"],
     "Descripción": "Con los shapefiles creados anteriormente se crearan lo que son las edificaciones para eso son los puntos para asignar por ejemplo las casitas a continuación se ve el proceso"
   },
   {
     "número": "22,23,24",
+    "titulo":"Trabajo con líneas",
     "Imágenes": ["22", "23", "24"],
     "Descripción": "al igual con los shapefiles se crearán las líneas en este caso se agregara lo que es el río "
   },
   {
     "número": "25,26,27,28",
+    "titulo":"Trabajo con polígonos",
     "Imágenes": ["25", "26", "27", "28"],
     "Descripción": "Igual con el shapefiles de área verde se crearán las áreas verdes y se seleccionará toda la área verde a continuación el proceso"
   },
   {
     "número": "29,30",
+    "titulo":"Nuevos campos",
     "Imágenes": ["29", "30"],
     "Descripción": "Se añaden nuevos campos para cada tabla y agregar información deseada de cada campo"
   },
   {
     "número": "31",
+    "titulo":"Ingreso de información",
     "Imágenes": ["31"],
     "Descripción": "Aquí se agrega la información de las edificaciones ejemplo se llaman “Casa” y se seleccionan todos los campos a cambiar"
   },
   {
     "número": "32,33,34",
+    "titulo":"Área, perímetro y longitud",
     "Imágenes": ["32", "33", "34"],
     "Descripción": "Aquí se crea lo que es el apartado de area y perimetro para agregar los cálculos y la información"
   },
   {
     "número": "35,36,37,38,39",
+    "titulo":"Cálculo de coordenadas XY",
     "Imágenes": ["35", "36", "37", "38", "39"],
     "Descripción": "Aquí se calcula las coordenadas X Y basándose en las imágenes de a continuación"
   },
   {
     "número": "40,41,42,43",
+    "titulo":"Operaciones",
     "Imágenes": ["40", "41", "42", "43"],
     "Descripción": "Aquí se realiza lo que son los porcentajes y una operación del mismo"
   }

@@ -7,7 +7,7 @@ import ConclusionsCard from "./components/ConclusionsCard.jsx";
 
 const AboutView = () => {
     return (
-        <Container className="Container">
+        <Container className="about-Container">
             <ConclusionsCard />
             <RefrencesAccordion/>
         </Container>

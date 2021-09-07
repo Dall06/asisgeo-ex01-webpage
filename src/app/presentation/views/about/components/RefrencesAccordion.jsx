@@ -1,19 +1,32 @@
-import React from "react";
-import Accordion from 'react-bootstrap/Accordion';
+import React, { useCallback, useEffect, useState } from 'react'
+import bibliografiaJSON from '../../../../../core/resources/bibliografia.json'
 import '../styles.css'
 
 const ReferencesAccordion = () => {
-    return (
-        <Accordion defaultActiveKey="0">
-            <Accordion.Item eventKey="0">
-                <Accordion.Header>Reference 1</Accordion.Header>
-                <Accordion.Body>
-                    Aqui van la informacion de la referencia
-                    Generar una de estas por cada referencia
-                </Accordion.Body>
-            </Accordion.Item>
-        </Accordion>
-    );
+  const [hrefRender, setHrefRender] = useState()
+
+  useEffect(() => {
+    renderReferences()
+  }, [])
+  const renderReferences = useCallback(() => {
+    let aux = []
+    bibliografiaJSON.forEach((element, index) => {
+      aux.push(
+        <a
+          key={index}
+          className="references-accordeon-div"
+          target="_blank"
+          href={element.link}
+        >
+          <div>{element.data}</div>
+        </a>,
+      )
+    })
+
+    setHrefRender(aux)
+  }, [])
+
+  return <> {hrefRender} </>
 }
 
-export default ReferencesAccordion;
+export default ReferencesAccordion
